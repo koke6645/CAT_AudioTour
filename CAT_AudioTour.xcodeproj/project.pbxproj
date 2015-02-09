@@ -37,8 +37,8 @@
 		8B533BCA1A8816680060482E /* CAT_AudioTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAT_AudioTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B533BCF1A8816680060482E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B533BD01A8816680060482E /* CAT_AudioTourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAT_AudioTourTests.swift; sourceTree = "<group>"; };
-		8B533BDA1A8817160060482E /* AttractionInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttractionInfoViewController.swift; path = ../AttractionInfoViewController.swift; sourceTree = "<group>"; };
-		8B533BDC1A8817270060482E /* AudioTourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioTourViewController.swift; path = ../AudioTourViewController.swift; sourceTree = "<group>"; };
+		8B533BDA1A8817160060482E /* AttractionInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionInfoViewController.swift; sourceTree = "<group>"; };
+		8B533BDC1A8817270060482E /* AudioTourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTourViewController.swift; sourceTree = "<group>"; };
 		8B533BDE1A8817570060482E /* PassData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -345,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CAT_AudioTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CAT_AudioTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -413,6 +415,7 @@
 				8B533BD61A8816680060482E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B533BD71A8816680060482E /* Build configuration list for PBXNativeTarget "CAT_AudioTourTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +424,7 @@
 				8B533BD91A8816680060482E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
